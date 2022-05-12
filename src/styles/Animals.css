@@ -1,0 +1,27 @@
+img{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+h4{
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;  
+  }
+
+.center {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+  
+textarea{
+    width: 600;
+    margin: auto;
+    margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+.layout {
+    width: 100%;
+}
+
+.layout header {
+    height: 75px;
+    background-color: grey;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.layout header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-right: 1rem;
+}
+
+.layout section {
+    display: flex;
+}
+
+.layout main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.layout footer {
+    height: 75px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
